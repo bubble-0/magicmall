@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/magic-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-item/magic-item-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-item/magic-item-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-item/magic-item-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-registry/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

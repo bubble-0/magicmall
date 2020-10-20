@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>magicmall</artifactId>
+        <groupId>org.example.parent</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.example.item</groupId>
+    <artifactId>magic-item</artifactId>
+
+    <!--聚合工程,打包方式设置为pom-->
+    <!--pom一般为聚合工程使用的,一般没有代码,主要是为了引导找到module-->
+    <!--war一般就是发布的代码-->
+    <!--jar一般说明这个模块为内部的服务-->
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>magic-item-interface</module>
+        <module>magic-item-service</module>
+    </modules>
+
+
+</project>
